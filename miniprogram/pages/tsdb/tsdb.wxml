@@ -1,0 +1,3 @@
+<button size="mini" type="default" bindtap="onQuery">gggg</button>
+
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>

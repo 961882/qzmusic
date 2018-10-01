@@ -1,0 +1,8 @@
+{
+    "usingComponents":{
+        "v-music":"/components/classic/music/index",
+        "v-episode":"/components/episode/index",
+        "v-navi":"/components/navi/index",
+        "v-button":"/components/image-button/index"
+    }
+}

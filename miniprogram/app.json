@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/tsdb/tsdb",
+    "pages/classic/classic"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "林间有风",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default",
+    "backgroundColor": "#ffffff",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "color": "#c7c7c7",
+    "list": [
+      {
+        "pagePath": "pages/tsdb/tsdb",
+        "selectedIconPath": "/images/tab/book@highlight.png",
+        "iconPath": "/images/tab/book.png",
+        "text": "书籍"
+      },
+      {
+        "selectedIconPath": "/images/tab/classic@highlight.png",
+        "pagePath": "pages/classic/classic",
+        "text": "流行",
+        "iconPath": "/images/tab/classic.png"
+      }
+    ]
+  }
+}
